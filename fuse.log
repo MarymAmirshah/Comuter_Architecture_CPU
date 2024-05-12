@@ -1,0 +1,36 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/testbench_isim_beh.exe -prj C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/testbench_beh.prj work.testbench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/SignExtend.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/Mux.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/InstMemory.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/DataMemory.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/BranchControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/ALUControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/ALU.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/CPU.v" into library work
+Analyzing Verilog file "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/testbench.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module InstMemory
+Compiling module ControlUnit
+Compiling module Mux(LENGTH=3)
+Compiling module SignExtend
+Compiling module ALUControlUnit
+Compiling module Mux
+Compiling module ALU
+Compiling module BranchControlUnit
+Compiling module DataMemory
+Compiling module CPU
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/testbench_isim_beh.exe
+Fuse Memory Usage: 29380 KB
+Fuse CPU Usage: 390 ms

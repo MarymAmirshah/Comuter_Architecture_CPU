@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/CPU.xst" -ofn "C:/Users/puyapardaz/Desktop/Phase 1/ISE/Project_Phase2/CPU.syr" 

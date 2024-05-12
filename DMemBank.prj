@@ -1,0 +1,3 @@
+verilog work "ALU.v"
+verilog work "DataMemory.v"
+verilog work "InstMemory.v"

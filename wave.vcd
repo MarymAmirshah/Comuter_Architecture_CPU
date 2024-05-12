@@ -1,0 +1,1239 @@
+$date
+   Fri Jun 09 17:36:05 2023
+$end
+$version
+  P.20131013
+$end
+$timescale
+  1ps
+$end
+$scope module testbench $end
+$scope module cpu $end
+$var wire 1 @$ clk $end
+$var wire 1 <& next_pc [15] $end
+$var wire 1 =& next_pc [14] $end
+$var wire 1 >& next_pc [13] $end
+$var wire 1 ?& next_pc [12] $end
+$var wire 1 @& next_pc [11] $end
+$var wire 1 A& next_pc [10] $end
+$var wire 1 B& next_pc [9] $end
+$var wire 1 C& next_pc [8] $end
+$var wire 1 D& next_pc [7] $end
+$var wire 1 E& next_pc [6] $end
+$var wire 1 F& next_pc [5] $end
+$var wire 1 G& next_pc [4] $end
+$var wire 1 H& next_pc [3] $end
+$var wire 1 I& next_pc [2] $end
+$var wire 1 J& next_pc [1] $end
+$var wire 1 K& next_pc [0] $end
+$var wire 1 P" inst_memread $end
+$var wire 1 8$ instruction [15] $end
+$var wire 1 9$ instruction [14] $end
+$var wire 1 :$ instruction [13] $end
+$var wire 1 ;$ instruction [12] $end
+$var wire 1 7 instruction [11] $end
+$var wire 1 8 instruction [10] $end
+$var wire 1 9 instruction [9] $end
+$var wire 1 s" instruction [8] $end
+$var wire 1 t" instruction [7] $end
+$var wire 1 u" instruction [6] $end
+$var wire 1 }" instruction [5] $end
+$var wire 1 ~" instruction [4] $end
+$var wire 1 !# instruction [3] $end
+$var wire 1 9# instruction [2] $end
+$var wire 1 :# instruction [1] $end
+$var wire 1 ;# instruction [0] $end
+$var wire 1 r" RegDst $end
+$var wire 1 y% Jump $end
+$var wire 1 E Branch $end
+$var wire 1 A$ MemRead $end
+$var wire 1 u$ MemToReg $end
+$var wire 1 B$ MemWrite $end
+$var wire 1 =# ALUSrc $end
+$var wire 1 J RegWrite $end
+$var wire 1 |" SignExt $end
+$var wire 1 5# ALUOp [3] $end
+$var wire 1 6# ALUOp [2] $end
+$var wire 1 7# ALUOp [1] $end
+$var wire 1 8# ALUOp [0] $end
+$var wire 1 y" reg_dest_mux_to_wirte_register [2] $end
+$var wire 1 z" reg_dest_mux_to_wirte_register [1] $end
+$var wire 1 {" reg_dest_mux_to_wirte_register [0] $end
+$var wire 1 8% mem_to_reg_mux_to_write_data [15] $end
+$var wire 1 9% mem_to_reg_mux_to_write_data [14] $end
+$var wire 1 :% mem_to_reg_mux_to_write_data [13] $end
+$var wire 1 ;% mem_to_reg_mux_to_write_data [12] $end
+$var wire 1 <% mem_to_reg_mux_to_write_data [11] $end
+$var wire 1 =% mem_to_reg_mux_to_write_data [10] $end
+$var wire 1 >% mem_to_reg_mux_to_write_data [9] $end
+$var wire 1 ?% mem_to_reg_mux_to_write_data [8] $end
+$var wire 1 @% mem_to_reg_mux_to_write_data [7] $end
+$var wire 1 A% mem_to_reg_mux_to_write_data [6] $end
+$var wire 1 B% mem_to_reg_mux_to_write_data [5] $end
+$var wire 1 C% mem_to_reg_mux_to_write_data [4] $end
+$var wire 1 D% mem_to_reg_mux_to_write_data [3] $end
+$var wire 1 E% mem_to_reg_mux_to_write_data [2] $end
+$var wire 1 F% mem_to_reg_mux_to_write_data [1] $end
+$var wire 1 G% mem_to_reg_mux_to_write_data [0] $end
+$var wire 1 n# rf_readdata1 [15] $end
+$var wire 1 o# rf_readdata1 [14] $end
+$var wire 1 p# rf_readdata1 [13] $end
+$var wire 1 q# rf_readdata1 [12] $end
+$var wire 1 r# rf_readdata1 [11] $end
+$var wire 1 s# rf_readdata1 [10] $end
+$var wire 1 t# rf_readdata1 [9] $end
+$var wire 1 u# rf_readdata1 [8] $end
+$var wire 1 v# rf_readdata1 [7] $end
+$var wire 1 w# rf_readdata1 [6] $end
+$var wire 1 x# rf_readdata1 [5] $end
+$var wire 1 y# rf_readdata1 [4] $end
+$var wire 1 z# rf_readdata1 [3] $end
+$var wire 1 {# rf_readdata1 [2] $end
+$var wire 1 |# rf_readdata1 [1] $end
+$var wire 1 }# rf_readdata1 [0] $end
+$var wire 1 S$ rf_readdata2 [15] $end
+$var wire 1 T$ rf_readdata2 [14] $end
+$var wire 1 U$ rf_readdata2 [13] $end
+$var wire 1 V$ rf_readdata2 [12] $end
+$var wire 1 W$ rf_readdata2 [11] $end
+$var wire 1 X$ rf_readdata2 [10] $end
+$var wire 1 Y$ rf_readdata2 [9] $end
+$var wire 1 Z$ rf_readdata2 [8] $end
+$var wire 1 [$ rf_readdata2 [7] $end
+$var wire 1 \$ rf_readdata2 [6] $end
+$var wire 1 ]$ rf_readdata2 [5] $end
+$var wire 1 ^$ rf_readdata2 [4] $end
+$var wire 1 _$ rf_readdata2 [3] $end
+$var wire 1 `$ rf_readdata2 [2] $end
+$var wire 1 a$ rf_readdata2 [1] $end
+$var wire 1 b$ rf_readdata2 [0] $end
+$var wire 1 N# sign_extension_out [15] $end
+$var wire 1 O# sign_extension_out [14] $end
+$var wire 1 P# sign_extension_out [13] $end
+$var wire 1 Q# sign_extension_out [12] $end
+$var wire 1 R# sign_extension_out [11] $end
+$var wire 1 S# sign_extension_out [10] $end
+$var wire 1 T# sign_extension_out [9] $end
+$var wire 1 U# sign_extension_out [8] $end
+$var wire 1 V# sign_extension_out [7] $end
+$var wire 1 W# sign_extension_out [6] $end
+$var wire 1 X# sign_extension_out [5] $end
+$var wire 1 Y# sign_extension_out [4] $end
+$var wire 1 Z# sign_extension_out [3] $end
+$var wire 1 [# sign_extension_out [2] $end
+$var wire 1 \# sign_extension_out [1] $end
+$var wire 1 ]# sign_extension_out [0] $end
+$var wire 1 0$ ALUOperation [3] $end
+$var wire 1 1$ ALUOperation [2] $end
+$var wire 1 2$ ALUOperation [1] $end
+$var wire 1 3$ ALUOperation [0] $end
+$var wire 1 ~# ALU_source_mux_to_ALU [15] $end
+$var wire 1 !$ ALU_source_mux_to_ALU [14] $end
+$var wire 1 "$ ALU_source_mux_to_ALU [13] $end
+$var wire 1 #$ ALU_source_mux_to_ALU [12] $end
+$var wire 1 $$ ALU_source_mux_to_ALU [11] $end
+$var wire 1 %$ ALU_source_mux_to_ALU [10] $end
+$var wire 1 &$ ALU_source_mux_to_ALU [9] $end
+$var wire 1 '$ ALU_source_mux_to_ALU [8] $end
+$var wire 1 ($ ALU_source_mux_to_ALU [7] $end
+$var wire 1 )$ ALU_source_mux_to_ALU [6] $end
+$var wire 1 *$ ALU_source_mux_to_ALU [5] $end
+$var wire 1 +$ ALU_source_mux_to_ALU [4] $end
+$var wire 1 ,$ ALU_source_mux_to_ALU [3] $end
+$var wire 1 -$ ALU_source_mux_to_ALU [2] $end
+$var wire 1 .$ ALU_source_mux_to_ALU [1] $end
+$var wire 1 /$ ALU_source_mux_to_ALU [0] $end
+$var wire 1 <$ zero $end
+$var wire 1 =$ less_than $end
+$var wire 1 >$ greater_than $end
+$var wire 1 L! bcond $end
+$var wire 1 v$ ALU_result [15] $end
+$var wire 1 w$ ALU_result [14] $end
+$var wire 1 x$ ALU_result [13] $end
+$var wire 1 y$ ALU_result [12] $end
+$var wire 1 z$ ALU_result [11] $end
+$var wire 1 {$ ALU_result [10] $end
+$var wire 1 |$ ALU_result [9] $end
+$var wire 1 }$ ALU_result [8] $end
+$var wire 1 ~$ ALU_result [7] $end
+$var wire 1 !% ALU_result [6] $end
+$var wire 1 "% ALU_result [5] $end
+$var wire 1 #% ALU_result [4] $end
+$var wire 1 $% ALU_result [3] $end
+$var wire 1 %% ALU_result [2] $end
+$var wire 1 &% ALU_result [1] $end
+$var wire 1 '% ALU_result [0] $end
+$var wire 1 (% memory_read_data [15] $end
+$var wire 1 )% memory_read_data [14] $end
+$var wire 1 *% memory_read_data [13] $end
+$var wire 1 +% memory_read_data [12] $end
+$var wire 1 ,% memory_read_data [11] $end
+$var wire 1 -% memory_read_data [10] $end
+$var wire 1 .% memory_read_data [9] $end
+$var wire 1 /% memory_read_data [8] $end
+$var wire 1 0% memory_read_data [7] $end
+$var wire 1 1% memory_read_data [6] $end
+$var wire 1 2% memory_read_data [5] $end
+$var wire 1 3% memory_read_data [4] $end
+$var wire 1 4% memory_read_data [3] $end
+$var wire 1 5% memory_read_data [2] $end
+$var wire 1 6% memory_read_data [1] $end
+$var wire 1 7% memory_read_data [0] $end
+$var wire 1 I% pc_plus_2 [15] $end
+$var wire 1 J% pc_plus_2 [14] $end
+$var wire 1 K% pc_plus_2 [13] $end
+$var wire 1 L% pc_plus_2 [12] $end
+$var wire 1 M% pc_plus_2 [11] $end
+$var wire 1 N% pc_plus_2 [10] $end
+$var wire 1 O% pc_plus_2 [9] $end
+$var wire 1 P% pc_plus_2 [8] $end
+$var wire 1 Q% pc_plus_2 [7] $end
+$var wire 1 R% pc_plus_2 [6] $end
+$var wire 1 S% pc_plus_2 [5] $end
+$var wire 1 T% pc_plus_2 [4] $end
+$var wire 1 U% pc_plus_2 [3] $end
+$var wire 1 V% pc_plus_2 [2] $end
+$var wire 1 W% pc_plus_2 [1] $end
+$var wire 1 X% pc_plus_2 [0] $end
+$var wire 1 Y% pc_branch [15] $end
+$var wire 1 Z% pc_branch [14] $end
+$var wire 1 [% pc_branch [13] $end
+$var wire 1 \% pc_branch [12] $end
+$var wire 1 ]% pc_branch [11] $end
+$var wire 1 ^% pc_branch [10] $end
+$var wire 1 _% pc_branch [9] $end
+$var wire 1 `% pc_branch [8] $end
+$var wire 1 a% pc_branch [7] $end
+$var wire 1 b% pc_branch [6] $end
+$var wire 1 c% pc_branch [5] $end
+$var wire 1 d% pc_branch [4] $end
+$var wire 1 e% pc_branch [3] $end
+$var wire 1 f% pc_branch [2] $end
+$var wire 1 g% pc_branch [1] $end
+$var wire 1 h% pc_branch [0] $end
+$var wire 1 ,& pc_jump [15] $end
+$var wire 1 -& pc_jump [14] $end
+$var wire 1 .& pc_jump [13] $end
+$var wire 1 /& pc_jump [12] $end
+$var wire 1 0& pc_jump [11] $end
+$var wire 1 1& pc_jump [10] $end
+$var wire 1 2& pc_jump [9] $end
+$var wire 1 3& pc_jump [8] $end
+$var wire 1 4& pc_jump [7] $end
+$var wire 1 5& pc_jump [6] $end
+$var wire 1 6& pc_jump [5] $end
+$var wire 1 7& pc_jump [4] $end
+$var wire 1 8& pc_jump [3] $end
+$var wire 1 9& pc_jump [2] $end
+$var wire 1 :& pc_jump [1] $end
+$var wire 1 ;& pc_jump [0] $end
+$var wire 1 z% branch_mux_to_jump_mux [15] $end
+$var wire 1 {% branch_mux_to_jump_mux [14] $end
+$var wire 1 |% branch_mux_to_jump_mux [13] $end
+$var wire 1 }% branch_mux_to_jump_mux [12] $end
+$var wire 1 ~% branch_mux_to_jump_mux [11] $end
+$var wire 1 !& branch_mux_to_jump_mux [10] $end
+$var wire 1 "& branch_mux_to_jump_mux [9] $end
+$var wire 1 #& branch_mux_to_jump_mux [8] $end
+$var wire 1 $& branch_mux_to_jump_mux [7] $end
+$var wire 1 %& branch_mux_to_jump_mux [6] $end
+$var wire 1 && branch_mux_to_jump_mux [5] $end
+$var wire 1 '& branch_mux_to_jump_mux [4] $end
+$var wire 1 (& branch_mux_to_jump_mux [3] $end
+$var wire 1 )& branch_mux_to_jump_mux [2] $end
+$var wire 1 *& branch_mux_to_jump_mux [1] $end
+$var wire 1 +& branch_mux_to_jump_mux [0] $end
+$var reg 16 O" pc [15:0] $end
+$scope module instruction_memory $end
+$var wire 1 P" memread $end
+$var wire 1 Q" address [15] $end
+$var wire 1 R" address [14] $end
+$var wire 1 S" address [13] $end
+$var wire 1 T" address [12] $end
+$var wire 1 U" address [11] $end
+$var wire 1 V" address [10] $end
+$var wire 1 W" address [9] $end
+$var wire 1 X" address [8] $end
+$var wire 1 Y" address [7] $end
+$var wire 1 Z" address [6] $end
+$var wire 1 [" address [5] $end
+$var wire 1 \" address [4] $end
+$var wire 1 ]" address [3] $end
+$var wire 1 ^" address [2] $end
+$var wire 1 _" address [1] $end
+$var wire 1 `" address [0] $end
+$var reg 16 a" readdata [15:0] $end
+$var reg 4096 b" mem_array [15:0] $end
+$var reg 16 c" impl1 [15:0] $end
+$upscope $end
+$scope module control_unit $end
+$var wire 1 8$ op [3] $end
+$var wire 1 9$ op [2] $end
+$var wire 1 :$ op [1] $end
+$var wire 1 ;$ op [0] $end
+$var reg 1 h" RegDst $end
+$var reg 1 i" Jump $end
+$var reg 1 j" Branch $end
+$var reg 1 k" MemRead $end
+$var reg 1 l" MemToReg $end
+$var reg 1 m" MemWrite $end
+$var reg 1 n" ALUSrc $end
+$var reg 1 o" RegWrite $end
+$var reg 1 p" SignExt $end
+$var reg 4 q" ALUOp [3:0] $end
+$upscope $end
+$scope module reg_dest_mux $end
+$var wire 1 r" select $end
+$var wire 1 s" in0 [2] $end
+$var wire 1 t" in0 [1] $end
+$var wire 1 u" in0 [0] $end
+$var wire 1 }" in1 [2] $end
+$var wire 1 ~" in1 [1] $end
+$var wire 1 !# in1 [0] $end
+$var wire 1 y" out [2] $end
+$var wire 1 z" out [1] $end
+$var wire 1 {" out [0] $end
+$upscope $end
+$scope module sign_extension $end
+$var wire 1 |" SignExt $end
+$var wire 1 }" data [5] $end
+$var wire 1 ~" data [4] $end
+$var wire 1 !# data [3] $end
+$var wire 1 9# data [2] $end
+$var wire 1 :# data [1] $end
+$var wire 1 ;# data [0] $end
+$var wire 1 N# out [15] $end
+$var wire 1 O# out [14] $end
+$var wire 1 P# out [13] $end
+$var wire 1 Q# out [12] $end
+$var wire 1 R# out [11] $end
+$var wire 1 S# out [10] $end
+$var wire 1 T# out [9] $end
+$var wire 1 U# out [8] $end
+$var wire 1 V# out [7] $end
+$var wire 1 W# out [6] $end
+$var wire 1 X# out [5] $end
+$var wire 1 Y# out [4] $end
+$var wire 1 Z# out [3] $end
+$var wire 1 [# out [2] $end
+$var wire 1 \# out [1] $end
+$var wire 1 ]# out [0] $end
+$upscope $end
+$scope module ALU_control_unit $end
+$var wire 1 5# ALUOp [3] $end
+$var wire 1 6# ALUOp [2] $end
+$var wire 1 7# ALUOp [1] $end
+$var wire 1 8# ALUOp [0] $end
+$var wire 1 9# funct [2] $end
+$var wire 1 :# funct [1] $end
+$var wire 1 ;# funct [0] $end
+$var reg 4 <# ALUOperation [3:0] $end
+$upscope $end
+$scope module ALU_source_mux $end
+$var wire 1 =# select $end
+$var wire 1 S$ in0 [15] $end
+$var wire 1 T$ in0 [14] $end
+$var wire 1 U$ in0 [13] $end
+$var wire 1 V$ in0 [12] $end
+$var wire 1 W$ in0 [11] $end
+$var wire 1 X$ in0 [10] $end
+$var wire 1 Y$ in0 [9] $end
+$var wire 1 Z$ in0 [8] $end
+$var wire 1 [$ in0 [7] $end
+$var wire 1 \$ in0 [6] $end
+$var wire 1 ]$ in0 [5] $end
+$var wire 1 ^$ in0 [4] $end
+$var wire 1 _$ in0 [3] $end
+$var wire 1 `$ in0 [2] $end
+$var wire 1 a$ in0 [1] $end
+$var wire 1 b$ in0 [0] $end
+$var wire 1 N# in1 [15] $end
+$var wire 1 O# in1 [14] $end
+$var wire 1 P# in1 [13] $end
+$var wire 1 Q# in1 [12] $end
+$var wire 1 R# in1 [11] $end
+$var wire 1 S# in1 [10] $end
+$var wire 1 T# in1 [9] $end
+$var wire 1 U# in1 [8] $end
+$var wire 1 V# in1 [7] $end
+$var wire 1 W# in1 [6] $end
+$var wire 1 X# in1 [5] $end
+$var wire 1 Y# in1 [4] $end
+$var wire 1 Z# in1 [3] $end
+$var wire 1 [# in1 [2] $end
+$var wire 1 \# in1 [1] $end
+$var wire 1 ]# in1 [0] $end
+$var wire 1 ~# out [15] $end
+$var wire 1 !$ out [14] $end
+$var wire 1 "$ out [13] $end
+$var wire 1 #$ out [12] $end
+$var wire 1 $$ out [11] $end
+$var wire 1 %$ out [10] $end
+$var wire 1 &$ out [9] $end
+$var wire 1 '$ out [8] $end
+$var wire 1 ($ out [7] $end
+$var wire 1 )$ out [6] $end
+$var wire 1 *$ out [5] $end
+$var wire 1 +$ out [4] $end
+$var wire 1 ,$ out [3] $end
+$var wire 1 -$ out [2] $end
+$var wire 1 .$ out [1] $end
+$var wire 1 /$ out [0] $end
+$upscope $end
+$scope module alu $end
+$var wire 1 n# data1 [15] $end
+$var wire 1 o# data1 [14] $end
+$var wire 1 p# data1 [13] $end
+$var wire 1 q# data1 [12] $end
+$var wire 1 r# data1 [11] $end
+$var wire 1 s# data1 [10] $end
+$var wire 1 t# data1 [9] $end
+$var wire 1 u# data1 [8] $end
+$var wire 1 v# data1 [7] $end
+$var wire 1 w# data1 [6] $end
+$var wire 1 x# data1 [5] $end
+$var wire 1 y# data1 [4] $end
+$var wire 1 z# data1 [3] $end
+$var wire 1 {# data1 [2] $end
+$var wire 1 |# data1 [1] $end
+$var wire 1 }# data1 [0] $end
+$var wire 1 ~# data2 [15] $end
+$var wire 1 !$ data2 [14] $end
+$var wire 1 "$ data2 [13] $end
+$var wire 1 #$ data2 [12] $end
+$var wire 1 $$ data2 [11] $end
+$var wire 1 %$ data2 [10] $end
+$var wire 1 &$ data2 [9] $end
+$var wire 1 '$ data2 [8] $end
+$var wire 1 ($ data2 [7] $end
+$var wire 1 )$ data2 [6] $end
+$var wire 1 *$ data2 [5] $end
+$var wire 1 +$ data2 [4] $end
+$var wire 1 ,$ data2 [3] $end
+$var wire 1 -$ data2 [2] $end
+$var wire 1 .$ data2 [1] $end
+$var wire 1 /$ data2 [0] $end
+$var wire 1 0$ aluoperation [3] $end
+$var wire 1 1$ aluoperation [2] $end
+$var wire 1 2$ aluoperation [1] $end
+$var wire 1 3$ aluoperation [0] $end
+$var reg 16 4$ result [15:0] $end
+$var reg 1 5$ zero $end
+$var reg 1 6$ lt $end
+$var reg 1 7$ gt $end
+$upscope $end
+$scope module branch_control_unit $end
+$var wire 1 8$ op [3] $end
+$var wire 1 9$ op [2] $end
+$var wire 1 :$ op [1] $end
+$var wire 1 ;$ op [0] $end
+$var wire 1 <$ z $end
+$var wire 1 =$ lt $end
+$var wire 1 >$ gt $end
+$var reg 1 ?$ bcond $end
+$upscope $end
+$scope module data_memory $end
+$var wire 1 @$ clk $end
+$var wire 1 A$ memread $end
+$var wire 1 B$ memwrite $end
+$var wire 1 v$ address [15] $end
+$var wire 1 w$ address [14] $end
+$var wire 1 x$ address [13] $end
+$var wire 1 y$ address [12] $end
+$var wire 1 z$ address [11] $end
+$var wire 1 {$ address [10] $end
+$var wire 1 |$ address [9] $end
+$var wire 1 }$ address [8] $end
+$var wire 1 ~$ address [7] $end
+$var wire 1 !% address [6] $end
+$var wire 1 "% address [5] $end
+$var wire 1 #% address [4] $end
+$var wire 1 $% address [3] $end
+$var wire 1 %% address [2] $end
+$var wire 1 &% address [1] $end
+$var wire 1 '% address [0] $end
+$var wire 1 S$ writedata [15] $end
+$var wire 1 T$ writedata [14] $end
+$var wire 1 U$ writedata [13] $end
+$var wire 1 V$ writedata [12] $end
+$var wire 1 W$ writedata [11] $end
+$var wire 1 X$ writedata [10] $end
+$var wire 1 Y$ writedata [9] $end
+$var wire 1 Z$ writedata [8] $end
+$var wire 1 [$ writedata [7] $end
+$var wire 1 \$ writedata [6] $end
+$var wire 1 ]$ writedata [5] $end
+$var wire 1 ^$ writedata [4] $end
+$var wire 1 _$ writedata [3] $end
+$var wire 1 `$ writedata [2] $end
+$var wire 1 a$ writedata [1] $end
+$var wire 1 b$ writedata [0] $end
+$var wire 1 (% readdata [15] $end
+$var wire 1 )% readdata [14] $end
+$var wire 1 *% readdata [13] $end
+$var wire 1 +% readdata [12] $end
+$var wire 1 ,% readdata [11] $end
+$var wire 1 -% readdata [10] $end
+$var wire 1 .% readdata [9] $end
+$var wire 1 /% readdata [8] $end
+$var wire 1 0% readdata [7] $end
+$var wire 1 1% readdata [6] $end
+$var wire 1 2% readdata [5] $end
+$var wire 1 3% readdata [4] $end
+$var wire 1 4% readdata [3] $end
+$var wire 1 5% readdata [2] $end
+$var wire 1 6% readdata [1] $end
+$var wire 1 7% readdata [0] $end
+$var reg 4096 s$ mem_array [15:0] $end
+$scope begin datamem_initializer $end
+$var integer 32 t$ i $end
+$upscope $end
+$upscope $end
+$scope module data_memory_read_data_mux $end
+$var wire 1 u$ select $end
+$var wire 1 v$ in0 [15] $end
+$var wire 1 w$ in0 [14] $end
+$var wire 1 x$ in0 [13] $end
+$var wire 1 y$ in0 [12] $end
+$var wire 1 z$ in0 [11] $end
+$var wire 1 {$ in0 [10] $end
+$var wire 1 |$ in0 [9] $end
+$var wire 1 }$ in0 [8] $end
+$var wire 1 ~$ in0 [7] $end
+$var wire 1 !% in0 [6] $end
+$var wire 1 "% in0 [5] $end
+$var wire 1 #% in0 [4] $end
+$var wire 1 $% in0 [3] $end
+$var wire 1 %% in0 [2] $end
+$var wire 1 &% in0 [1] $end
+$var wire 1 '% in0 [0] $end
+$var wire 1 (% in1 [15] $end
+$var wire 1 )% in1 [14] $end
+$var wire 1 *% in1 [13] $end
+$var wire 1 +% in1 [12] $end
+$var wire 1 ,% in1 [11] $end
+$var wire 1 -% in1 [10] $end
+$var wire 1 .% in1 [9] $end
+$var wire 1 /% in1 [8] $end
+$var wire 1 0% in1 [7] $end
+$var wire 1 1% in1 [6] $end
+$var wire 1 2% in1 [5] $end
+$var wire 1 3% in1 [4] $end
+$var wire 1 4% in1 [3] $end
+$var wire 1 5% in1 [2] $end
+$var wire 1 6% in1 [1] $end
+$var wire 1 7% in1 [0] $end
+$var wire 1 8% out [15] $end
+$var wire 1 9% out [14] $end
+$var wire 1 :% out [13] $end
+$var wire 1 ;% out [12] $end
+$var wire 1 <% out [11] $end
+$var wire 1 =% out [10] $end
+$var wire 1 >% out [9] $end
+$var wire 1 ?% out [8] $end
+$var wire 1 @% out [7] $end
+$var wire 1 A% out [6] $end
+$var wire 1 B% out [5] $end
+$var wire 1 C% out [4] $end
+$var wire 1 D% out [3] $end
+$var wire 1 E% out [2] $end
+$var wire 1 F% out [1] $end
+$var wire 1 G% out [0] $end
+$upscope $end
+$scope module branch_mux $end
+$var wire 1 H% select $end
+$var wire 1 I% in0 [15] $end
+$var wire 1 J% in0 [14] $end
+$var wire 1 K% in0 [13] $end
+$var wire 1 L% in0 [12] $end
+$var wire 1 M% in0 [11] $end
+$var wire 1 N% in0 [10] $end
+$var wire 1 O% in0 [9] $end
+$var wire 1 P% in0 [8] $end
+$var wire 1 Q% in0 [7] $end
+$var wire 1 R% in0 [6] $end
+$var wire 1 S% in0 [5] $end
+$var wire 1 T% in0 [4] $end
+$var wire 1 U% in0 [3] $end
+$var wire 1 V% in0 [2] $end
+$var wire 1 W% in0 [1] $end
+$var wire 1 X% in0 [0] $end
+$var wire 1 Y% in1 [15] $end
+$var wire 1 Z% in1 [14] $end
+$var wire 1 [% in1 [13] $end
+$var wire 1 \% in1 [12] $end
+$var wire 1 ]% in1 [11] $end
+$var wire 1 ^% in1 [10] $end
+$var wire 1 _% in1 [9] $end
+$var wire 1 `% in1 [8] $end
+$var wire 1 a% in1 [7] $end
+$var wire 1 b% in1 [6] $end
+$var wire 1 c% in1 [5] $end
+$var wire 1 d% in1 [4] $end
+$var wire 1 e% in1 [3] $end
+$var wire 1 f% in1 [2] $end
+$var wire 1 g% in1 [1] $end
+$var wire 1 h% in1 [0] $end
+$var wire 1 z% out [15] $end
+$var wire 1 {% out [14] $end
+$var wire 1 |% out [13] $end
+$var wire 1 }% out [12] $end
+$var wire 1 ~% out [11] $end
+$var wire 1 !& out [10] $end
+$var wire 1 "& out [9] $end
+$var wire 1 #& out [8] $end
+$var wire 1 $& out [7] $end
+$var wire 1 %& out [6] $end
+$var wire 1 && out [5] $end
+$var wire 1 '& out [4] $end
+$var wire 1 (& out [3] $end
+$var wire 1 )& out [2] $end
+$var wire 1 *& out [1] $end
+$var wire 1 +& out [0] $end
+$upscope $end
+$scope module jump_mux $end
+$var wire 1 y% select $end
+$var wire 1 z% in0 [15] $end
+$var wire 1 {% in0 [14] $end
+$var wire 1 |% in0 [13] $end
+$var wire 1 }% in0 [12] $end
+$var wire 1 ~% in0 [11] $end
+$var wire 1 !& in0 [10] $end
+$var wire 1 "& in0 [9] $end
+$var wire 1 #& in0 [8] $end
+$var wire 1 $& in0 [7] $end
+$var wire 1 %& in0 [6] $end
+$var wire 1 && in0 [5] $end
+$var wire 1 '& in0 [4] $end
+$var wire 1 (& in0 [3] $end
+$var wire 1 )& in0 [2] $end
+$var wire 1 *& in0 [1] $end
+$var wire 1 +& in0 [0] $end
+$var wire 1 ,& in1 [15] $end
+$var wire 1 -& in1 [14] $end
+$var wire 1 .& in1 [13] $end
+$var wire 1 /& in1 [12] $end
+$var wire 1 0& in1 [11] $end
+$var wire 1 1& in1 [10] $end
+$var wire 1 2& in1 [9] $end
+$var wire 1 3& in1 [8] $end
+$var wire 1 4& in1 [7] $end
+$var wire 1 5& in1 [6] $end
+$var wire 1 6& in1 [5] $end
+$var wire 1 7& in1 [4] $end
+$var wire 1 8& in1 [3] $end
+$var wire 1 9& in1 [2] $end
+$var wire 1 :& in1 [1] $end
+$var wire 1 ;& in1 [0] $end
+$var wire 1 <& out [15] $end
+$var wire 1 =& out [14] $end
+$var wire 1 >& out [13] $end
+$var wire 1 ?& out [12] $end
+$var wire 1 @& out [11] $end
+$var wire 1 A& out [10] $end
+$var wire 1 B& out [9] $end
+$var wire 1 C& out [8] $end
+$var wire 1 D& out [7] $end
+$var wire 1 E& out [6] $end
+$var wire 1 F& out [5] $end
+$var wire 1 G& out [4] $end
+$var wire 1 H& out [3] $end
+$var wire 1 I& out [2] $end
+$var wire 1 J& out [1] $end
+$var wire 1 K& out [0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0^"
+0R"
+0W"
+0Y"
+0U"
+0]"
+0V"
+0Q"
+0["
+0Z"
+0T"
+0\"
+0S"
+0X"
+0G&
+0F&
+0E&
+0D&
+0C&
+0B&
+0A&
+0@&
+0?&
+0>&
+0=&
+0<&
+1P"
+0K&
+1J&
+0H&
+0I&
+b0 O"
+x:#
+xu"
+x9$
+xt"
+x8$
+0r"
+x~"
+x}"
+xs"
+x;#
+x9#
+x!#
+x;$
+x8
+x:$
+x9
+x7
+x{"
+0?%
+0G%
+0=%
+0F%
+0;%
+z|#
+z{#
+0@%
+0>%
+0<%
+0E%
+07#
+zz#
+0A%
+0B%
+05#
+08%
+xy"
+0:%
+xz"
+z}#
+09%
+06#
+zy#
+0=#
+0|"
+0A$
+0u$
+0E
+0y%
+0B$
+0J
+08#
+0D%
+0C%
+0W#
+zb$
+0V#
+0U#
+z\$
+z`$
+z_$
+zZ$
+zr#
+zv#
+zo#
+zw#
+z]$
+z[$
+zY$
+zV$
+z^$
+zU$
+zx#
+za$
+zT$
+zs#
+xX#
+xY#
+x]#
+zX$
+xZ#
+zu#
+zt#
+zn#
+zS$
+zW$
+x\#
+zq#
+zp#
+x[#
+x3$
+0R#
+x1$
+0'%
+0&%
+0P#
+0O#
+z#$
+0%%
+0$%
+z*$
+z$$
+z"$
+z.$
+0L!
+0#%
+0N#
+z-$
+0Q#
+x2$
+z/$
+z&$
+z+$
+0T#
+z'$
+z%$
+z($
+x0$
+z)$
+z~#
+0S#
+1<$
+0=$
+0>$
+z,$
+z!$
+0T%
+0S%
+0z$
+0R%
+07%
+0Q%
+0P%
+03%
+0!%
+0v$
+00%
+0"%
+0y$
+0w$
+06%
+0{$
+05%
+01%
+02%
+0|$
+0,%
+0~$
+0-%
+0x$
+0)%
+0X%
+1W%
+0/%
+0.%
+04%
+0}$
+0(%
+0V%
+0+%
+0*%
+0U%
+0K%
+x\%
+x3&
+0N%
+x1&
+x0&
+x/&
+0M%
+0I%
+xg%
+xb%
+x4&
+xa%
+x`%
+xh%
+x^%
+xd%
+xZ%
+x:&
+x8&
+0J%
+0L%
+x]%
+x6&
+x9&
+x2&
+xf%
+xe%
+xc%
+x_%
+0O%
+x[%
+xY%
+0;&
+x7&
+x5&
+0H%
+0~%
+0{%
+0@$
+0+&
+0z%
+0`"
+0_"
+0-&
+0&&
+0$&
+0)&
+0'&
+0!&
+0.&
+0%&
+0"&
+1*&
+0#&
+0(&
+0,&
+0}%
+0|%
+bx a"
+bx b"
+bx c"
+0h"
+0i"
+0j"
+0k"
+0l"
+0m"
+0n"
+0o"
+0p"
+b0 q"
+bx <#
+b0 4$
+15$
+06$
+07$
+0?$
+b0 s$
+b100000000 t$
+$end
+#20000
+0J&
+1I&
+b10 O"
+0W%
+1V%
+1@$
+1_"
+1)&
+0*&
+#40000
+0@$
+#60000
+1^"
+1J&
+b100 O"
+1W%
+1@$
+0_"
+1*&
+#80000
+0@$
+#100000
+0J&
+1H&
+0I&
+b110 O"
+0W%
+0V%
+1U%
+1@$
+1_"
+0)&
+0*&
+1(&
+#120000
+0@$
+#140000
+0^"
+1]"
+1J&
+b1000 O"
+1W%
+1@$
+0_"
+1*&
+#160000
+0@$
+#180000
+0J&
+1I&
+b1010 O"
+0W%
+1V%
+1@$
+1_"
+1)&
+0*&
+#200000
+0@$
+#220000
+1^"
+1J&
+b1100 O"
+1W%
+1@$
+0_"
+1*&
+#240000
+0@$
+#260000
+1G&
+0J&
+0H&
+0I&
+b1110 O"
+1T%
+0W%
+0V%
+0U%
+1@$
+1_"
+0)&
+1'&
+0*&
+0(&
+#280000
+0@$
+#300000
+0^"
+0]"
+1\"
+1J&
+b10000 O"
+1W%
+1@$
+0_"
+1*&
+#320000
+0@$
+#340000
+0J&
+1I&
+b10010 O"
+0W%
+1V%
+1@$
+1_"
+1)&
+0*&
+#360000
+0@$
+#380000
+1^"
+1J&
+b10100 O"
+1W%
+1@$
+0_"
+1*&
+#400000
+0@$
+#420000
+0J&
+1H&
+0I&
+b10110 O"
+0W%
+0V%
+1U%
+1@$
+1_"
+0)&
+0*&
+1(&
+#440000
+0@$
+#460000
+0^"
+1]"
+1J&
+b11000 O"
+1W%
+1@$
+0_"
+1*&
+#480000
+0@$
+#500000
+0J&
+1I&
+b11010 O"
+0W%
+1V%
+1@$
+1_"
+1)&
+0*&
+#520000
+0@$
+#540000
+1^"
+1J&
+b11100 O"
+1W%
+1@$
+0_"
+1*&
+#560000
+0@$
+#580000
+0G&
+1F&
+0J&
+0H&
+0I&
+b11110 O"
+0T%
+1S%
+0W%
+0V%
+0U%
+1@$
+1_"
+1&&
+0)&
+0'&
+0*&
+0(&
+#600000
+0@$
+#620000
+0^"
+0]"
+1["
+0\"
+1J&
+b100000 O"
+1W%
+1@$
+0_"
+1*&
+#640000
+0@$
+#660000
+0J&
+1I&
+b100010 O"
+0W%
+1V%
+1@$
+1_"
+1)&
+0*&
+#680000
+0@$
+#700000
+1^"
+1J&
+b100100 O"
+1W%
+1@$
+0_"
+1*&
+#720000
+0@$
+#740000
+0J&
+1H&
+0I&
+b100110 O"
+0W%
+0V%
+1U%
+1@$
+1_"
+0)&
+0*&
+1(&
+#760000
+0@$
+#780000
+0^"
+1]"
+1J&
+b101000 O"
+1W%
+1@$
+0_"
+1*&
+#800000
+0@$
+#820000
+0J&
+1I&
+b101010 O"
+0W%
+1V%
+1@$
+1_"
+1)&
+0*&
+#840000
+0@$
+#860000
+1^"
+1J&
+b101100 O"
+1W%
+1@$
+0_"
+1*&
+#880000
+0@$
+#900000
+1G&
+0J&
+0H&
+0I&
+b101110 O"
+1T%
+0W%
+0V%
+0U%
+1@$
+1_"
+0)&
+1'&
+0*&
+0(&
+#920000
+0@$
+#940000
+0^"
+0]"
+1\"
+1J&
+b110000 O"
+1W%
+1@$
+0_"
+1*&
+#960000
+0@$
+#980000
+0J&
+1I&
+b110010 O"
+0W%
+1V%
+1@$
+1_"
+1)&
+0*&
+#1000000
+0@$
